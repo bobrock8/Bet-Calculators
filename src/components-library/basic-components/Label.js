@@ -2,7 +2,7 @@ import React from "react";
 
 function Label ( props ) {
     return (
-        <label className={props.class} for={props.forInput}>{props.text}</label>
+        <label className={props.class} htmlFor={props.forInput}>{props.text}</label>
     );
 }
 
