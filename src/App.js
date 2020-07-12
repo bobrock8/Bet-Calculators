@@ -3,7 +3,8 @@ import NumberInput from './components-library/basic-components/NumberInput';
 import CheckboxInput from './components-library/basic-components/CheckboxInput';
 import Label from "./components-library/basic-components/Label";
 import Tooltip from "./components-library/basic-components/Tooltip";
-import logo from './logo.svg';
+import RangeInput from "./components-library/basic-components/RangeInput";
+
 import './App.css';
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
             <span>Hover over this text.</span>
         </Tooltip>
 
+        <hr />
+        <h2>Range Input</h2>
+        <RangeInput class="goran-class" name="goran-range-name" min="1" max="40" value="10" />
     </div>
   );
 }
