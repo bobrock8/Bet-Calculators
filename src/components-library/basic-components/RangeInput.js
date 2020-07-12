@@ -6,7 +6,6 @@ function RangeInput ( props ) {
             type="range"
             min={props.min}
             max={props.max}
-            value={props.value}
             className={props.class}
             name={props.name}
         />

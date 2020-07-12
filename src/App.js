@@ -26,7 +26,7 @@ function App() {
 
         <hr />
         <h2>Range Input</h2>
-        <RangeInput class="goran-class" name="goran-range-name" min="1" max="40" value="10" />
+        <RangeInput class="goran-class" name="goran-range-name" min="1" max="40" />
     </div>
   );
 }
