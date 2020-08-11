@@ -27,6 +27,8 @@ function App() {
         <hr />
         <h2>Range Input</h2>
         <RangeInput class="goran-class" name="goran-range-name" min="1" max="40" />
+        <hr />
+        <h2>Select Input</h2>
     </div>
   );
 }
